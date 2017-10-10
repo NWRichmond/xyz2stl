@@ -1,0 +1,68 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3796986950" file="C:\Users\Peter Koons\Documents\GitHub\xyz2stl\xyz2stl.prj" location="C:\Users\Peter Koons\Documents\GitHub\xyz2stl" name="xyz2stl" target="target.mlapps" target-name="Package App">
+    <param.appname>xyz2stl</param.appname>
+    <param.authnamewatermark>Nick Richmond</param.authnamewatermark>
+    <param.email>nicholas.richmond@maine.edu</param.email>
+    <param.company>University of Maine</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Converts xyz points to an stl surface file</param.summary>
+    <param.description>xyz2stl is a MATLAB app which converts points in xyz space to stl (STereo Lithography) format, a file type which is common to many visualization and engineering programs.</param.description>
+    <param.screenshot>C:\Users\Peter Koons\Pictures\Saved Pictures\xyz2stl\xyz2stl_square_logo.png</param.screenshot>
+    <param.version>1.02</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Peter Koons\Documents\GitHub\xyz2stl</param.output>
+    <param.guid>be8b2838-9150-42f2-9ad5-26dd058054db</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\xyz2stl.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\Peter Koons\Documents\MATLAB\Add-Ons\Collections\Surface Fitting using gridfit\code\gridfitdir\gridfit.m</file>
+      <file>C:\Users\Peter Koons\Documents\MATLAB\Add-Ons\Toolboxes\stlTools\code\stlTools\stlWrite.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Peter Koons\Documents\GitHub" name="xyz2stl" optional="false">C:\Users\Peter Koons\Documents\GitHub\xyz2stl</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
